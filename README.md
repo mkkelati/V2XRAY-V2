@@ -1,11 +1,5 @@
-- 👋 Hi, I’m @shopeevpn...
-- 🌱 I’m currently learning ...
-
-<!---
-shopeevpn/shopeevpn is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-<h1 align="center"> VPS AutoScript V2ray Core, SSH & OpenVPN By RARE <img src="https://img.shields.io/badge/Version-10.0-blue.svg"></h1>
+# Free VPN AutoScript - V2Ray/XRay Multi-Protocol
+<h1 align="center"> Free VPS AutoScript - V2Ray/XRay Multi-Protocol <img src="https://img.shields.io/badge/Version-FREE-green.svg"></h1>
 
 
 <h2 align="center"> Supported Linux Distribution</h2>
@@ -46,26 +40,40 @@ You can click the Preview link to take a look at your changes.
      <p align="center">
   <img src="https://raw.githubusercontent.com/shopeevpn/V2XRAY-V2/main/2/09.png">
    </p>   
-  ## Register IP VPS: Contact Telegram @vpnshopee <a href="https://t.me/vpnshopee" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a>
-  
-## BUY SCRIPT :  <a href="https://racunzx.com/products/vps-autoscript-xray-hysteria-v2ray-trojan-with-themes-40-days?utm_source=copyToPasteBoard&utm_medium=product-links&utm_content=web" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=BUY&label=BUY&message=Click%20Here&color=blue"></a>  
-  ## Installation :
+## ✅ **FREE Installation - No Registration Required!**
 
+This script is completely free to use on any VPS. No IP registration, no purchase necessary!  
+## 🚀 Installation (Ubuntu/Debian VPS)
+
+### Method 1: Easy Install (Recommended)
+```bash
+wget -O install-free.sh https://raw.githubusercontent.com/mkkelati/V2XRAY-V2-FREE/main/install-free.sh && chmod +x install-free.sh && sudo ./install-free.sh
 ```
-echo -e "[ Info ] Download setup file" && sysctl -w net.ipv6.conf.all.disable_ipv6=1 &> /dev/null && sysctl -w net.ipv6.conf.default.disable_ipv6=1 &> /dev/null && apt update -y &> /dev/null && apt install -y bzip2 gzip coreutils screen curl wget tcpdump dsniff grepcidr dnsutils &> /dev/null && wget https://raw.githubusercontent.com/shopeevpn/V2XRAY-V2/main/setup.sh &> /dev/null && chmod +x setup.sh && "/root/setup.sh"
-   
-``` 
-echo -e "[ Info ] Download setup file" && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt install -y bzip2 gzip coreutils screen curl wget tcpdump dsniff grepcidr dnsutils && wget https://raw.githubusercontent.com/shopeevpn/V2XRAY-V2/main/setup.sh && chmod +x setup.sh && "/root/setup.sh"
-```   
+
+### Method 2: Direct Install
+```bash
+wget -O setup.sh https://raw.githubusercontent.com/mkkelati/V2XRAY-V2-FREE/main/setup.sh && chmod +x setup.sh && sudo ./setup.sh
 ```
-   
-kalau error masa install [screen is terminating]
-```   
+
+### Method 3: One-liner
+```bash
+curl -sL https://raw.githubusercontent.com/mkkelati/V2XRAY-V2-FREE/main/install-free.sh | sudo bash
+```
+
+### 🔧 Troubleshooting
+If you get `[screen is terminating]` error:
+```bash
 chmod +x /var/run/screen
-```  
+```
+
+**Requirements:**
+- Fresh Ubuntu 18.04+ or Debian 9+ VPS
+- Root access (sudo)
+- Minimum 1GB RAM
+- Active internet connection  
 
 ## Description :
-=====================================-{ Autoscript Premium }-===============================
+=====================================-{ Free AutoScript }-===============================
 
    >>> Service & Port
    - OpenSSH                 : 22
@@ -103,7 +111,9 @@ chmod +x /var/run/screen
    - Auto-Remove-Expired      : [ON]
    - Installation Log --> /root/log-install.txt
 
-               Script by VPNSHOPEE | Telegram: @vpnshopee
+               Free VPN AutoScript - No restrictions, no registration required!
 
-## Credit :
-* MACK-A
+## Credits :
+* Original script based on MACK-A's work
+* Modified to remove premium restrictions
+* Free for all VPS providers
